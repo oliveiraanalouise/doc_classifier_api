@@ -14,12 +14,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Execute o script 
+3. Configure variáveis de ambiente em <./models/.env> usando o <.env.example>
+
+4. Execute o script 
 ```bash
 python api.py
 ```
 
-4. Acesse o dashboard no link http://localhost:5000/api/docs
+5. Acesse o dashboard no link http://localhost:5000/api/docs
 
-5. Envie uma requisição
+6. Envie uma requisição
 Para o correto funcionamento, envie uma requisição tipo multipart, onde exista um campo "file" com o arquivo anexado a esse campo.
